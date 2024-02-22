@@ -3,10 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ojobamiche.github.io</title>
+    <title>My Portfolio</title>
+<link  rel="stylesheet" href="/css/styles.css"/>
 </head>
 <body>
     <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">ABOUT ME</a>
+    <a href="#admission">MY PROJECTS</a>
+    <a href="#academics">CONTACT</a>
+    <a href="#creche">MY PROFILE</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+  x.className += " responsive";
+} else {
+  x.className = "topnav";
+}
+}
+</script>
+
+<section class="header">
+<a href="index.html"><img src=""></a>
+    <h1>Ojobamiche James</h1>
+    <p>AI & Machine Learning Enthusiast</p>
+</section>
+
+<section>
+    <h2>About Me</h2>
+    <p class="bio">I am currently learning AI and Machine Learning, passionate about leveraging technology to solve real-world problems. My goal is to offer expertise and skills to both big and small companies.</p>
+</section>
+
+<section>
+    <h2>My Portfolio</h2>
+    <!-- Add your projects, work, or any achievements here -->
+</section>
+
+<section>
+    <h2>Services</h2>
+    <p>Offering AI and Machine Learning services for both big and small companies. Whether you need assistance with data analysis, model development, or any AI-related task, I've got you covered.</p>
+</section>
+
+<footer>
+    <p>Contact me at: your.email@example.com</p>
+</footer>
+
 </body>
 </html>
